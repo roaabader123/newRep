@@ -13,7 +13,7 @@ public class TestThreadCheckArray {
 			Thread thread1, thread2;
 			System.out.println("Enter the numbers");
 			ArrayList<Integer> array=new ArrayList<Integer>();
-			int num  = input.nextInt();
+			//int num  = input.nextInt();
 			while (input.hasNextInt()) {
                 array.add(input.nextInt());
             }
@@ -21,7 +21,7 @@ public class TestThreadCheckArray {
 			//wgf
 			
 			System.out.println("Enter number");
-			 num = input.nextInt();
+			int num = input.nextInt();
 			
 			SharedData sd = new SharedData(array, num);
 			
