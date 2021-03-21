@@ -17,7 +17,7 @@ public class TestThreadCheckArray {
                 array.add(input.next());
             }
 			
-			//wgfdsad
+			//wgfds
 			
 			System.out.println("Enter number");
 			num = input.nextInt();
