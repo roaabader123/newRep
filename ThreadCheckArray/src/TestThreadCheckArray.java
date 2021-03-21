@@ -5,10 +5,12 @@ import java.util.Scanner;
  */
 
 public class TestThreadCheckArray {
+	
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
 			Thread thread1, thread2;
 			System.out.println("Enter the numbers");
+			
 			/*int num  = input.nextInt();
 			int [] array = new int[num];*/
 			while (input.hasNextint()) {
