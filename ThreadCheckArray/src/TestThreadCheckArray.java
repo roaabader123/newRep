@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/** Description 
+ * 
+ * @param args
+ */
 
 public class TestThreadCheckArray {
 	public static void main(String[] args) {
