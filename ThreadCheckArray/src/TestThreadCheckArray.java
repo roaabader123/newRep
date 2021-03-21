@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.ArrayList;
 /** Description 
  * 
  * @param args
@@ -10,17 +12,16 @@ public class TestThreadCheckArray {
 		try (Scanner input = new Scanner(System.in)) {
 			Thread thread1, thread2;
 			System.out.println("Enter the numbers");
-			
-			/*int num  = input.nextInt();
-			int [] array = new int[num];*/
-			while (input.hasNextint()) {
-                array.add(input.next());
+			ArrayList<Integer> array=new ArrayList<Integer>();
+			int num  = input.nextInt();
+			while (input.hasNextInt()) {
+                array.add(input.nextInt());
             }
 			
 			//wgf
 			
 			System.out.println("Enter number");
-			num = input.nextInt();
+			 num = input.nextInt();
 			
 			SharedData sd = new SharedData(array, num);
 			
@@ -42,7 +43,7 @@ public class TestThreadCheckArray {
 				System.out.println("Sorry");
 				return;
 			}
-			System.out.println("Solution for b : " + sd.getB() + ",n = " + sd.getArray().length);
+			System.out.println("Solution for b : " + sd.getB() + ",n = " + sd.getArray().size());
 			System.out.print("I:    ");
 			
 			for(int index = 0; index < array.size() ; index++)
