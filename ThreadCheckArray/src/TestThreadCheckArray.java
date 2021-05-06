@@ -4,6 +4,7 @@ import java.util.ArrayList;
 /** Description 
  * 
  * @param args
+ * 
  */
 
 public class TestThreadCheckArray {
@@ -18,7 +19,7 @@ public class TestThreadCheckArray {
                 array.add(input.nextInt());
             }
 			
-			//wgf
+			
 			
 			System.out.println("Enter number");
 			int num = input.nextInt();
